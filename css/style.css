@@ -1,0 +1,20 @@
+/* Author: Al Ferreras */
+#hand > img{
+    width: 80px;
+    height: 80px;
+}
+
+#line > .slot{
+    width: 120px;
+    height: 120px;
+}
+
+#hand{
+    background-image: url('../graphics_data/scrabbleRack.png');
+    height: 120px;
+    width: 610px;
+}
+
+#buttons{
+    margin: 50px 10px 50px 10px;
+}

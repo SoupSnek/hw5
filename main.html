@@ -1,0 +1,40 @@
+<!--
+File: main.html
+GUI Assignment: One Line Scrabble
+Author: Al Sebastian Ferreras
+Date: 12/16/21
+Description: Scrabble game with only one line
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>One Line Scrabble</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://releases.jquery.com/git/ui/jquery-ui-git.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <link type='text/css' rel='stylesheet' href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    </head>
+
+    <body>
+        <div id="hud">
+            <div>Score: </div>
+            <div id='score'>0</div>
+        </div>
+        
+        <!--The board for the game. Gets filled in by scrabble.js-->
+        <div id="line">
+        </div>
+        
+        <div id="buttons">
+            <button id='submitWord'>Submit Word</button>
+            <button id='newGame'>Restart</button>
+        </div>
+        
+        <!--The players hand containing the tiles they can use. Gets filled in by scrabble.js-->
+        <div id='hand'>
+        </div>
+    </body>
+    
+    <script src="./js/scrabble.js"></script>
+</html>
