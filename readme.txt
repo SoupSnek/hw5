@@ -1,4 +1,6 @@
 Author: Al Ferreras
+Github: https://github.com/SoupSnek/hw5
+Github Pages: https://soupsnek.github.io/hw5/
 
 From the rubric, the things I have not implemented are:
 •When the player runs out of tiles they receive no feedback
